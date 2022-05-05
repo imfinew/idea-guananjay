@@ -10,7 +10,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
-  
 }
 
 .wrapper, .portfolio , .contact-section{
@@ -494,6 +493,14 @@ h1 span {
   color: #6671c5;
 }
 
+/* PORTFOLIO PAGE */
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+}
+
 
 /* RESPONSIVE */
 
@@ -529,6 +536,8 @@ h1 span {
     .nav__input:checked + .menu {
       clip-path: circle(100% at center);
     }
+
+ 
 
     .nav__logo {
       font-size: 1.3em;
@@ -567,10 +576,6 @@ h1 span {
     .form-controlContact {
       width: 80vw;
     }
-
-
-    
-    
 
 }
 
