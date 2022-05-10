@@ -1,0 +1,22 @@
+// ABSTRACTS 
+@import './abstract/variables';
+
+
+// FONT 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+// BASE
+@import './base/resets';
+@import './base';
+
+// Layout 
+@import './layout/header';
+@import './layout/content';
+@import './layout/footer';
+@import './layout/skillspage';
+@import './layout/contactpage';
+@import './layout/portfolio';
+@import './layout/about';
+@import './components/mediaquerys';
+
+

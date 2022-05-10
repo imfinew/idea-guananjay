@@ -1,0 +1,90 @@
+.main__container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__section {
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+}
+
+.container-contactPage {
+    margin: 0 auto;
+}
+
+
+.form-controlContact {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+
+}
+
+.form-controlContact input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.form-controlContact textarea {
+    height: 21em;
+    background: none;
+    color: #fff;
+    padding: 1.5em;
+    border: 1px solid #fff;
+
+}
+
+.main__h2Contact {
+    font-size: 2em;
+}
+
+
+/* ABOUT PAGE */
+
+.containerAbout {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.textAbout {
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    margin-right: 8%;
+}
+
+.imgAbout {
+    align-items: center;
+    margin: auto;
+}
+
+.imgAbout img {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.textAbout h1 {
+    font-size: 2em;
+    margin-bottom: 0.1em;
+    color: #6671c5;
+}
+
+.textAbout h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.1em;
+}
+
+.textAbout h5 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: #6671c5;
+}

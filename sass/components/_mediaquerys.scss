@@ -1,0 +1,141 @@
+@media (max-width:768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .card {
+        margin: 1rem auto;
+    }
+
+    .nav__label {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu {
+        position: fixed;
+        top: 80px;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.938);
+        width: 100%;
+        left: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        clip-path: circle(0 at center);
+        transition: clip-path 0.5s ease-in-out;
+    }
+
+    .nav__input:checked+.menu {
+        clip-path: circle(100% at center);
+    }
+
+    .nav__logo {
+        font-size: 1.3em;
+    }
+
+    .navbar {
+        padding: 5% 10%;
+    }
+
+    .footer-content h2 {
+        font-size: 2em;
+    }
+
+    .container-contact img {
+        display: none;
+    }
+
+    .container-contact {
+        grid-template-columns: 1fr;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .card .project-details {
+        width: 100%;
+    }
+
+    /* Contact Page */
+
+    .form-controlContact {
+        width: 80vw;
+    }
+
+}
+
+
+@media (max-width:480px) {
+
+    .main {
+        grid-template-columns: 1fr;
+    }
+
+    .about img {
+        display: none;
+    }
+
+    .about {
+        grid-template-columns: 1fr;
+    }
+
+    .container-contact img {
+        display: none;
+    }
+
+    .container-contact {
+        grid-template-columns: 1fr;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .main img {
+        display: none;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .skills {
+        height: auto;
+    }
+
+    .skills__container {
+        flex-direction: column;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 90%;
+        margin: 1em auto;
+    }
+
+    .main__h2Contact {
+        font-size: 1em;
+    }
+
+    .containerAbout {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgAbout img {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .portfolio .container {
+        width: 100%;
+    }
+}

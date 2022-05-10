@@ -1,0 +1,246 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
+}
+
+
+
+.main img {
+    width: 100%;
+    grid-column: 8/12;
+    margin-left: 20px;
+    animation: move-img 4s linear infinite;
+}
+
+@keyframes move-img {
+    0% {
+        transform: translateY(15px);
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(15px);
+    }
+}
+
+.info-content {
+    grid-column: 1/7;
+}
+
+h1 {
+    font-size: 3em;
+
+}
+
+h1 span {
+    color: #8190ff;
+}
+
+.brand a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.download-cv {
+    padding: 15px 30px;
+    background: linear-gradient(90deg, rgba(77, 85, 126, 1) 0%, rgba(25, 28, 50, 1) 100%);
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 1px 3px 11px 5px rgba(104, 104, 102, 0.3);
+    transition: 0.5s;
+}
+
+.download-cv:hover {
+    background-color: #3D3754;
+    box-shadow: none;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+}
+
+.about img {
+    width: 100%;
+    grid-column: 2/5;
+}
+
+.about-info {
+    grid-column: 6/10;
+    padding: 3em;
+}
+
+.about-info h2 {
+    font-size: 2em;
+    color: #191c32;
+}
+
+.divider {
+    height: 4px;
+    width: 60px;
+    background-color: #8190ff;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    margin-bottom: 1em;
+    font-weight: 700;
+}
+
+
+
+.portfolio-headings {
+    width: 100vw;
+    padding: 5em;
+}
+
+.portfolio-headings h2 {
+    font-size: 2.5em;
+}
+
+.portfolio .container {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    background-color: #40466e9c;
+    margin: 0 20px;
+}
+
+.card__img {
+    width: 100%;
+    height: 150px;
+    background-image: url(../img/background-portfolio.svg);
+    background-size: cover;
+}
+
+.card__title {
+    padding: 20px;
+}
+
+.card__projects-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card__projects-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.card__projects-links i {
+    font-size: 1.5em;
+}
+
+.card .project-details {
+    margin: 0 auto;
+    margin: 1em;
+    display: flex;
+
+}
+
+.card .project-details a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.project-details-content {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    margin-top: 1em;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.container-contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-headings h2 {
+    font-size: 3em;
+}
+
+.contact-section {
+    padding: 3em;
+    margin: 0 auto;
+}
+
+.container-contact img {
+    width: 60%;
+    bottom: 0;
+    margin-left: 10%;
+}
+
+.contact-form {
+    margin: auto;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+}
+
+.form-control input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.form-control textarea {
+    height: 150px;
+    background: none;
+    color: #fff;
+    padding: 1.5em;
+    border: 1px solid #fff;
+
+}
+
+.btn-submit {
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, rgba(77, 85, 126, 1) 0%, rgba(25, 28, 50, 1) 100%);
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px 5px rgba(104, 104, 102, 0.089);
+    transition: 0.5s;
+}
+
+.btn-submit:hover {
+    background-color: #3D3754;
+    box-shadow: none;
+}
+
