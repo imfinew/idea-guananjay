@@ -71,6 +71,18 @@
 
 }
 
+@media (max-width:580px) {
+    
+    .skills {
+        .card1, .card2 , .card3 {
+            h2 {
+                font-size: 1.2em;
+            }
+        }
+    }
+    
+}
+
 
 @media (max-width:480px) {
 
@@ -137,5 +149,58 @@
 
     .portfolio .container {
         width: 100%;
+    }
+
+    .containerAbout {
+        h1 {
+            font-size: 2em;
+        }
+
+        h2 {
+            font-size: 2em;
+        }
+
+        h5 {
+            font-size: 1em;
+        }
+
+        p {
+            font-size: 1em;
+        }
+    }
+
+    .imgAbout {
+        display: none;
+    }
+}
+
+@media (max-width: 340px) {
+    h1 {
+        font-size: 2.5em;
+    }
+}
+
+
+@media (max-width: 300px) {
+    .card {
+        width: 70%;
+    }
+
+    .portfolio-headings {
+        padding: 5em 5em 5em 1em;
+    }
+
+    .social-network {
+        width: 100%;
+    }
+
+    .form-controlContact {
+        .textarea {
+            height: 12em;
+        }
+    }
+
+    .main__section {
+        margin-top: 1em;
     }
 }
